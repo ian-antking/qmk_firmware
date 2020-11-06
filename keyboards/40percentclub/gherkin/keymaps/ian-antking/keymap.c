@@ -38,7 +38,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_F11,  KC_F12,  _______, _______, _______, KC_COMM, KC_DOT,  KC_SLSH, KC_SCLN, KC_QUOT,
     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______
   )
-
 };
 
 void keyboard_pre_init_user(void) {
