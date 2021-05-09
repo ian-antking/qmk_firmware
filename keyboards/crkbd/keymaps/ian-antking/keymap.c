@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    CTL_Z,   ALT_X,   KC_C,    KC_V,    KC_B,                       KC_N,  KC_M, KC_COMM, ALT_DOT, CTL_SLSH, KC_SFTENT,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          KC_LGUI,   LOWER,  KC_SPC,     KC_SPC,  RAISE,  KC_RGUI, \
+                                          KC_LGUI,   LOWER,  KC_SPC,     KC_SPC,  RAISE,  KC_RGUI \
                                       //`--------------------------'  `--------------------------'
 
   ),
@@ -56,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, KC_LEFT, KC_DOWN,  KC_UP, KC_RIGHT, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          XXXXXXX,  LOWER, XXXXXXX,     XXXXXXX, RAISE, XXXXXXX, \
+                                          XXXXXXX,  LOWER, XXXXXXX,     XXXXXXX, RAISE, XXXXXXX \
                                       //`--------------------------'  `--------------------------'
     ),
 
@@ -68,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          XXXXXXX, LOWER,   XXXXXXX,    XXXXXXX, RAISE, XXXXXXX, \
+                                          XXXXXXX, LOWER,   XXXXXXX,    XXXXXXX, RAISE, XXXXXXX \
                                       //`--------------------------'  `--------------------------'
   ),
 
@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RGB_MOD, RGB_HUD, RGB_SAD, RGB_VAD, XXXXXXX, XXXXXXX,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          XXXXXXX, LOWER, XXXXXXX,      XXXXXXX,  RAISE, XXXXXXX, \
+                                          XXXXXXX, LOWER, XXXXXXX,      XXXXXXX,  RAISE, XXXXXXX \
                                       //`--------------------------'  `--------------------------'
   )
 };
